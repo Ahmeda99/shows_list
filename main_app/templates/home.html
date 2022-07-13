@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Home</h1>
+{% if user.is_authenticated %}
+<form action="{% url 'searchbar' %}" method="get">
+    <!-- Django requires the following for security purposes -->
+    {% csrf_token %}
+    <table>
+      <!-- Render the inputs inside of <tr>s & <td>s -->
+      {{ form.as_table }}
+    </table>
+    <input type="text" placeholder="search" name="search" />
+    <input type="submit" value="Submit!" class="btn" />
+  </form>
+  {% else %}
+<p></p>
+{% endif %}
+{% endblock %}

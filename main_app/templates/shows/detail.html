@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>Show Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ show.name }}</span>
+    <p>Rating: {{ show.rating }}</p>
+    <p>Description: {{ show.description }}</p>
+    <p>Cast: {{ show.cast }}</p>
+  </div>
+  <div class="card-action">
+    <a href="{% url 'shows_update' show.id %}">Edit</a>
+    <a href="{% url 'shows_delete' show.id %}">Delete</a>
+  </div>
+</div>
+
+{% endblock %}
