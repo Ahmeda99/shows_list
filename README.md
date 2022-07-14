@@ -1,13 +1,13 @@
 # shows_list
-For this project I used CRUD elements throughout my work. Using mongoDB and heroku to push and deploy my work. Seeing my passion for cars I created a site where people are able to post and view from a gallery of cars.
+This web app allows for a user to search or create their favorite shows. A user is able to login/signup and save a show to their personal list. For this project I used authentication and CRUD elements throughout my work.
 
 ![screenshot](https://i.imgur.com/oIBVg00.png)
 
 ![screenshot](https://i.imgur.com/YQmK2rn.png)
 
-![screenshot](https://i.imgur.com/i99Q0yS.jpeg)
+![screenshot](https://i.imgur.com/RGDwvbW.png)
 
-![screenshot](https://i.imgur.com/cPWmmZ8.png)
+![screenshot](https://i.imgur.com/7y42igg.png)
 
 ## Technologies Used
 
@@ -15,10 +15,9 @@ For this project I used CRUD elements throughout my work. Using mongoDB and hero
  
  ## links
  
- https://carsproject2.herokuapp.com/home
+ https://shows-list-aa.herokuapp.com/
  
- https://trello.com/invite/b/zE6wRfY5/91751131254b3a8bda3b284d0cab1a64/cars-project-2
  
 ## future features
 
-I would have liked to create a user login in able to create and share comments on certain cars you may find interesting.
+I would have liked to add more styling and find a better api.
