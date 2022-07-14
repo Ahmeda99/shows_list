@@ -1,4 +1,4 @@
-# shows_list
+# shows_list_Maker
 This web app allows for a user to search or create their favorite shows. A user is able to login/signup and save a show to their personal list. For this project I used authentication and CRUD elements throughout my work.
 
 ![screenshot](https://i.imgur.com/oIBVg00.png)
