@@ -11,7 +11,7 @@ This web app allows for a user to search or create their favorite shows. A user 
 
 ## Technologies Used
 
- Bootstrap, Mongodb, Node js, HTML5, CSS, JavaScript, Jquery, Ajax, Method Override, Express.
+ Python, HTML5, CSS, SQL, PostgreSQL, Django, API.
  
  ## links
  
