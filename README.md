@@ -20,4 +20,5 @@ This web app allows for a user to search or create their favorite shows. A user 
  
 ## future features
 
-I would have liked to add more styling and find a better api.
+Add a episode tracker.
+Add a star rating to each show
